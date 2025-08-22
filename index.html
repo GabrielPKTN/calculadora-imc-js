@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
     <title>Calculadora de IMC</title>
 </head>
 <body>
@@ -17,24 +18,24 @@
             
                 <div class="container-input">
                     <span>Nome: </span>
-                    <input type="text" class="entrada-dados">
+                    <input type="text" class="entrada-dados" id="nome">
                 </div>
 
                 <div class="container-input">
                     <span>Peso: </span>
-                    <input type="number" class="entrada-dados input-number">
+                    <input type="number" class="entrada-dados" id="peso">
                 </div>
 
                 <div class="container-input">
                     <span>Altura: </span>
-                    <input type="number" class="entrada-dados input-number">
+                    <input type="number" class="entrada-dados" id="altura">
                 </div>
             
             </div>
             <div class="container-resultado">
-                <button class="btn-calcular-imc">CALCULAR IMC</button>
-                <div class="resultado">
-                    <p>Ana seu IMC é 17.3 e você está abaixo do peso.</p>
+                <button class="btn-calcular-imc" id="calcular">CALCULAR IMC</button>
+                <div class="resultado" id="resultado">
+                    <p class="mensagem-resultado" id="mensagem-resultado"></p>
                 </div>
             </div>
             
