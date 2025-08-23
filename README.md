@@ -1,5 +1,7 @@
 # Calculadora de IMC
 
+![](./img/preview.png)
+
 ---
 
 ### 📋 Descrição do Projeto
